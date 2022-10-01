@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Mulish:ital,wght@0,200;0,400;1,300&family=Nunito:ital,wght@0,200;0,400;1,300&family=Poppins:ital,wght@0,200;0,400;1,300;1,500&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap');
+
+.navbar-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-header3{
+    width: 116px;
+    height: 32px;
+    margin-left: 3rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #252b42;
+
+}
+.navbar-header ul {
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50rem;
+}
+.navbar-header ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    list-style: none;
+}
+.navbar-header ul li a{
+    text-decoration: none;
+    color: #737373;
+    cursor: pointer;
+}
+
+
+
+.navbar-login{
+    position: absolute;
+    margin-left: 70rem;
+    width: 324px;
+    height: 54px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.navbar-login h4{
+    color:#23A6F0;;
+}
